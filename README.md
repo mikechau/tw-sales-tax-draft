@@ -51,7 +51,7 @@ Write an application that prints out the receipt details for these shopping bask
 This is for the Thoughtworks Coding Challenege, I am applying for a Junior Consultant Role / Entry Level Developer.  
 
 ### How to Run
-`ruby runtax.rb <filename>.txt`  
+`ruby run_tax.rb <filename>.txt`  
 *Note*: The text file must be placed in the `input` folder. 3 files from the problem have been included for your convenience.  
 #### Files:
 - input1.txt
@@ -61,8 +61,8 @@ This is for the Thoughtworks Coding Challenege, I am applying for a Junior Consu
 ***
 ### Testing
 Tests were done with `rspec`.  
-`cd spec`  
-`rspec <filename>.rb`  
+`rspec spec/<filename>.rb` - individual test
+`rspec spec` - run all tests
 #### Files:
 - input_spec.rb - Testing for file input
 - caculator_spec.rb - Testing for caculating sales tax and totals
