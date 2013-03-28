@@ -1,4 +1,4 @@
-require "../lib/print"
+require_relative "../lib/print"
 
 describe "print" do
   it "should display the items line by line" do
