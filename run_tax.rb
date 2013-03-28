@@ -33,18 +33,6 @@ class RunTax
   end
 end
 
-
 filename = ARGV.first
 purchase = RunTax.new(filename)
 purchase.execute
-# load = Input.new(filename)
-# load.parse
-
-# costs = Calculator.new(load.items)
-# costs.total_all
-
-# receipt = Print.new(costs.items, costs.total_sales_tax, costs.total_price)
-
-# Print.review(load.input_file, filename)
-# receipt.show
-
