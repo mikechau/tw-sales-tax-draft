@@ -84,9 +84,9 @@ Tests were done with `rspec`.
 ***
 ### Flow
 A high level flow of how this application works is as follows:  
-**1.**  User runs `runtax.rb` with the `text` file of their choice located in the `input` directory.  
+**1.**  User runs `run_tax.rb` with the `text` file of their choice located in the `input` directory.  
 
-**2.**  `runtax.rb` runs and calls `/lib/input` where the text file is loaded and turned into an array and then the following occurs:  
+**2.**  `run_tax.rb` runs and calls `/lib/input` where the text file is loaded and turned into an array and then the following occurs:  
 #### text file:
 >   1 book at 1.99
     1 imported watches at 5.99
