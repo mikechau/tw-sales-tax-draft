@@ -1,4 +1,4 @@
-require '../lib/calculator'
+require_relative '../lib/calculator'
 
 describe "calculator" do
 

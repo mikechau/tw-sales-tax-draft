@@ -1,4 +1,4 @@
-require "../lib/input"
+require_relative "../lib/input"
 
 describe "input" do
 
